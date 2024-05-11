@@ -9,3 +9,10 @@ for i in z:
         if i+j==x:
             y='YES'
 print(y)
+
+#another solution
+x=int(input())
+if x%2==0 and x!=2:
+    print('Yes')
+else:
+    print('No')
